@@ -21,23 +21,23 @@ int main(void)
     while(TienThua <0);
 
     int to500k = calculate_500k(TienThua);
-    TienThua = TienThua - 500* to500k;
+    TienThua = TienThua - 500000* to500k;
     int to200k = calculate_200k(TienThua);
-    TienThua = TienThua - 200 * to200k;
+    TienThua = TienThua - 200000 * to200k;
     int to100k = calculate_100k(TienThua);
-    TienThua = TienThua - 100 * to100k;
+    TienThua = TienThua - 100000 * to100k;
     int to50k = calculate_50k(TienThua);
-    TienThua = TienThua - 50* to50k;
+    TienThua = TienThua - 50000* to50k;
     int to20k = calculate_20k(TienThua);
-    TienThua = TienThua - 20* to20k;
+    TienThua = TienThua - 20000* to20k;
     int to10k = calculate_10k(TienThua);
-    TienThua = TienThua - 10* to10k;
+    TienThua = TienThua - 10000* to10k;
     int to5k = calculate_5k(TienThua);
-    TienThua = TienThua - 5* to5k;
+    TienThua = TienThua - 5000* to5k;
     int to2k = calculate_2k(TienThua);
-    TienThua = TienThua - 2* to2k;
+    TienThua = TienThua - 2000* to2k;
     int to1k = calculate_1k(TienThua);
-    TienThua = TienThua - 1* to1k;
+    TienThua = TienThua - 1000* to1k;
 
     // Tính tổng số tờ tiền và các loại cần trả
     printf("Tổng số tờ cần trả: %i\n", to500k + to200k + to100k + to50k + to20k + to10k + to5k + to2k + to1k);
@@ -56,9 +56,9 @@ int main(void)
 int calculate_500k(int TienThua)
 {
     int to500k=0;
-    while(TienThua >=500)
+    while(TienThua >=500000)
     {
-        TienThua=TienThua - 500;
+        TienThua=TienThua - 500000;
         to500k++;
     }
     return to500k;
@@ -67,9 +67,9 @@ int calculate_500k(int TienThua)
 int calculate_200k(int TienThua)
 {
     int to200k=0;
-    while(TienThua >=200)
+    while(TienThua >=200000)
     {
-        TienThua=TienThua - 200;
+        TienThua=TienThua - 200000;
         to200k++;
     }
     return to200k;
@@ -78,9 +78,9 @@ int calculate_200k(int TienThua)
 int calculate_100k(int TienThua)
 {
     int to100k=0;
-    while(TienThua >=100)
+    while(TienThua >=100000)
     {
-        TienThua=TienThua - 100;
+        TienThua=TienThua - 100000;
         to100k++;
     }
     return to100k;
@@ -89,9 +89,9 @@ int calculate_100k(int TienThua)
 int calculate_50k(int TienThua)
 {
     int to50k=0;
-    while(TienThua >=50)
+    while(TienThua >=50000)
     {
-        TienThua=TienThua - 50;
+        TienThua=TienThua - 50000;
         to50k++;
     }
     return to50k;
@@ -100,9 +100,9 @@ int calculate_50k(int TienThua)
 int calculate_20k(int TienThua)
 {
     int to20k=0;
-    while(TienThua >=20)
+    while(TienThua >=20000)
     {
-        TienThua=TienThua - 20;
+        TienThua=TienThua - 20000;
         to20k++;
     }
     return to20k;
@@ -111,9 +111,9 @@ int calculate_20k(int TienThua)
 int calculate_10k(int TienThua)
 {
     int to10k=0;
-    while(TienThua >=10)
+    while(TienThua >=10000)
     {
-        TienThua=TienThua - 10;
+        TienThua=TienThua - 10000;
         to10k++;
     }
     return to10k;
@@ -122,9 +122,9 @@ int calculate_10k(int TienThua)
 int calculate_5k(int TienThua)
 {
     int to5k=0;
-    while(TienThua >=5)
+    while(TienThua >=5000)
     {
-        TienThua=TienThua - 5;
+        TienThua=TienThua - 5000;
         to5k++;
     }
     return to5k;
@@ -133,9 +133,9 @@ int calculate_5k(int TienThua)
 int calculate_2k(int TienThua)
 {
     int to2k=0;
-    while(TienThua >=2)
+    while(TienThua >=2000)
     {
-        TienThua=TienThua - 2;
+        TienThua=TienThua - 2000;
         to2k++;
     }
     return to2k;
@@ -144,9 +144,9 @@ int calculate_2k(int TienThua)
 int calculate_1k(int TienThua)
 {
     int to1k=0;
-    while(TienThua >=1)
+    while(TienThua >=1000)
     {
-        TienThua=TienThua - 1;
+        TienThua=TienThua - 1000;
         to1k++;
     }
     return to1k;
